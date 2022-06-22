@@ -2,7 +2,7 @@ version: "3.9"
 services:
   auth:
     build:
-      context: ./service_auth
+      context: ./chat-auth-service
       dockerfile: Dockerfile
     depends_on: 
       - postgres
